@@ -1,5 +1,6 @@
 #JSGF V1.0;
 /**
+Please follow this link to understand how to build this grammar: https://www.w3.org/TR/jsgf/
 @author NTA
 @Version 1.0
 @example: Tôi muốn xây dựng ngữ pháp tiếng Việt
