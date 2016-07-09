@@ -5,7 +5,7 @@ Please follow these links to understand how to build this grammar:
 2) http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/jsgf/JSGFGrammar.html
 @author NTA
 @Version 1.0
-@example: Tôi muốn xây dựng ngữ pháp tiếng Việt
+@example: 
 */
 grammar com.ntavn.chaohoi;
 
