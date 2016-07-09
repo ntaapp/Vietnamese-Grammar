@@ -1,6 +1,8 @@
 #JSGF V1.0;
 /**
-Please follow this link to understand how to build this grammar: https://www.w3.org/TR/jsgf/
+Please follow these links to understand how to build this grammar: 
+1) https://www.w3.org/TR/jsgf/
+2) http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/jsgf/JSGFGrammar.html
 @author NTA
 @Version 1.0
 @example: Tôi muốn xây dựng ngữ pháp tiếng Việt
