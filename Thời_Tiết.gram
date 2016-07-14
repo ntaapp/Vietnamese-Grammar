@@ -16,16 +16,14 @@ grammar kiểm_tra_thời_tiết;
 <thời_gian> = hôm nay | ngày mai | ngày kia | hôm qua | hôm kia | ngày mốt ;
 <thời_thiết> = nắng | mưa | bão | gió | nắng to | lạnh | nóng | ấm | mát | mát mẻ ;
 <đồ_vật> = áo mưa | ô | mũ |áo chống nắng ;
-<địa_điểm> = 
+<địa_điểm> = Hà Nội;
 
-<câu_lệnh> =  [kiểm tra] thời tiết <thời_gian> [<địa_điểm>]       |
+<hỏi_thời_tiết> =  [kiểm tra] thời tiết <thời_gian> [<địa_điểm>]       |
               <thời_gian>+ thời tiết <thời_gian> [<địa_điểm>]     |
               <thời_gian>+ trời có <thời_tiết> không |
               tôi có phải mang <đồ_vật> ;
 
-<bank_command> = [show | check] balance |
-                 deposit <number>       |
-                 withdraw <number>      |
-                 back                   ;
+<hỏi_nhiệt_độ> = 
+
 
 public <command> = <menu_command> | <bank_command>;
