@@ -16,7 +16,7 @@ grammar kiểm_tra_thời_tiết;
 <thời_gian> = hôm nay | ngày mai | ngày kia | hôm qua | hôm kia | ngày mốt ;
 <thời_thiết> = nắng | mưa | bão | gió | nắng to | lạnh | nóng | ấm | mát | mát mẻ ;
 <đồ_vật> = áo mưa | ô | mũ |áo chống nắng ;
-<địa_điểm> = Hà Nội;
+<địa_điểm> = Hà Nội|Hồ Chí Minh|Sài Gòn|Hải Phòng|Đà Nẵng|Cần Thơ|;
 
 <hỏi_thời_tiết> =  [kiểm tra] thời tiết <thời_gian> [<địa_điểm>]       |
               <thời_gian>+ thời tiết <thời_gian> [<địa_điểm>]     |
